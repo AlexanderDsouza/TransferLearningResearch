@@ -1,0 +1,145 @@
+
+#=============================FROZEN DECODER APPROACH=============================
+# =========Results for two headed model test=========
+
+# Average Test Loss: 0.7137186467647553
+# Average Test Accuracy: 0.575
+# Average AUC: 0.6238095238095237
+# Average Reconstruction Loss: 0.04007848873734474
+
+# Average Confusion Matrix:
+# [[2 4]
+#  [2 6]]
+# 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+# 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step
+
+# =========EP2 Results=========
+# Accuracy: 0.6666666666666666
+# AUC: 0.5
+# Confusion Matrix:
+# [[0 2]
+#  [0 4]]
+
+
+
+#=============================FROZEN DECODER APPROACH (WITH MIXUP)=============================
+# Average Test Loss: 0.7656320631504059
+# Average Test Accuracy: 0.55625
+# Average AUC: 0.6507936507936508
+# Average Reconstruction Loss: 0.03214960750192404
+
+# Average Confusion Matrix:
+# [[2 4]
+#  [2 6]]
+# 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+# 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step
+
+# =========EP2 Results=========
+# Accuracy: 0.6666666666666666
+# AUC: 0.5
+# Confusion Matrix:
+# [[0 2]
+#  [0 4]]
+
+#=============================FROZEN DECODER APPROACH (DATASET WIHTOUT SUBTRACTING RAWFMRISHEET)=============================
+# =========Results for two headed model test=========
+
+# Average Test Loss: 0.6931818902492524
+# Average Test Accuracy: 0.6125
+# Average AUC: 0.6634920634920636
+# Average Reconstruction Loss: 0.04156188368797302
+
+# Average Confusion Matrix:
+# [[3 3]
+#  [2 6]]
+# 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+# 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 14ms/step
+
+# =========EP2 Results=========
+# Accuracy: 0.6666666666666666
+# AUC: 0.5
+# Confusion Matrix:
+# [[0 2]
+#  [0 4]]
+
+
+#=============================FROZEN DECODER APPROACH (DATASET WIHTOUT SUBTRACTING RAWFMRISHEET WITH MIXUP)=============================
+# =========Results for two headed model test=========
+
+# Average Test Loss: 0.7699934542179108
+# Average Test Accuracy: 0.6125
+# Average AUC: 0.6873015873015873
+# Average Reconstruction Loss: 0.036048614606261256
+
+# Average Confusion Matrix:
+# [[3 3]
+#  [2 6]]
+# 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+# 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step
+
+# =========EP2 Results=========
+# Accuracy: 0.6666666666666666
+# AUC: 0.5
+# Confusion Matrix:
+# [[0 2]
+#  [0 4]]
+
+
+#=============================EP2 TOPLINE (results based on twoheaded model)=============================
+# =========Results for two headed model test=========
+
+# Average Test Loss: 0.7945817172527313
+# Average Test Accuracy: 0.5555555701255799
+# Average AUC: 0.5700000000000001
+# Average Reconstruction Loss: 0.11058716028928757
+
+# Average Confusion Matrix:
+# [[0 3]
+#  [0 4]]
+
+
+#=============================EP2 TOPLINE(WITH MIXUP)=============================
+# =========Results for two headed model test=========
+# Average Test Loss: 0.8481634318828583
+# Average Test Accuracy: 0.5888889044523239
+# Average AUC: 0.54
+# Average Reconstruction Loss: 0.031036664731800556
+
+# Average Confusion Matrix:
+# [[2 1]
+#  [2 3]]
+
+
+#=============================KAUSHIK'S APPROACH RESULTS(FROZEN PREDICTOR APPROACH)=============================
+
+
+
+#RESULTS KAUSHIK APPROACH GOOD RUN.
+#  =========Results for two headed model test=========
+
+# Average Test Loss: 0.6792838752269745
+# Average Test Accuracy: 0.55
+# Average AUC: 0.5873015873015873
+
+# Average Confusion Matrix:
+# [[3 3]
+#  [3 5]]
+
+# =========EP2 Results=========
+# Average Test Loss: 0.6819887161254883
+# Average Test Accuracy: 0.6363636255264282
+# Average AUC: 0.5999999999999999
+
+# Average Confusion Matrix:
+# [[2 3]
+#  [1 5]]
+
+
+#Two headed model test on EP2 as topline
+# Average Test Loss: 0.7249949216842652
+# Average Test Accuracy: 0.5636363685131073
+# Average AUC: 0.5199999999999998
+
+# Average Confusion Matrix:
+# [[2 2]
+#  [1 4]]
