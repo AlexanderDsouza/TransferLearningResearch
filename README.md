@@ -8,7 +8,7 @@ MRI scans from different scanners often vary in appearance and characteristics, 
 
 ## Data
 
-- Brain MRI scans collected from **Scanner 1** and **Scanner 2**.
+- Brain MRI scans collected from **Scanner EP1** and **Scanner EP2**.
 
 ## Dataset
 
@@ -18,8 +18,8 @@ Researchers interested in collaboration or data access may contact alexanderdani
 
 ## Methods
 
-- Frozen Decoder.
-- Frozen Predictor
+- Frozen Decoder - Train a two-headed model on EP1, transform EP2 using the saved decoder, train a new encoder for EP2, and reuse the existing prediction head.
+- Frozen Predictor - Where we first train an autoencoder and predictor on EP1. Then, we freeze the predictor and train a new autoencoder on EP2. This process creates a new latent space optimized using the prediction loss, enabling accurate predictions on EP2 based on this latent representation.
 
 ## Results
 
