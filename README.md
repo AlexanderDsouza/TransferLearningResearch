@@ -4,7 +4,7 @@ This project explores methods to build machine learning models that can transfer
 
 ## Problem Overview
 
-MRI scans from different scanners often vary in appearance and characteristics, making it challenging for models trained on one scanner’s data to perform well on another. This project investigates techniques to bridge this domain gap. This is a binary classification problem. 
+MRI scans from different scanners often vary in appearance and characteristics, making it challenging for models trained on one scanner’s data to perform well on another. This project investigates techniques to bridge this domain gap. This is a binary classification problem predicting whether schizophrenia treatment will be effective.
 
 ## Data
 
